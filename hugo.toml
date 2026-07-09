@@ -1,4 +1,4 @@
-baseURL = 'https://mattdickens.dev/'
+baseURL = 'https://www.mattdickens.dev/'
 locale = 'en-us'
 title = 'Matthew Dickens'
 theme = 'devawesome'
