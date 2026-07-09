@@ -1,7 +1,7 @@
 baseURL = 'https://mattdickens.dev/'
 locale = 'en-us'
 title = 'Matthew Dickens'
-theme = 'risotto'
+theme = 'devawesome'
 
 
 [[menu.main]]
