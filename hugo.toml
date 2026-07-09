@@ -3,6 +3,7 @@ locale = 'en-us'
 title = 'Matthew Dickens'
 theme = 'risotto'
 
+
 [[menu.main]]
 name = "Home"
 pageRef = "/"
@@ -16,14 +17,16 @@ weight = 2
 
 [params]
 noindex = false
+favicon = "/favicon.ico"
 
 [params.theme]
-palette = "base16-dark"
+palette = "tokyo-night-dark"
 
 # Sidebar: about/bio
 [params.about]
 title = "Matthew Dickens"
-description = "# Software Engineer, Hobby Game Dev"
+description = "# Software Engineer, Hobby Game Dev, and Outdoor Enthusiest"
+profile = "/images/profile.jpg"
 # unicode/emoji logo:
 logo = "🌲"
 # or use an image:
@@ -37,22 +40,27 @@ logo = "🌲"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/Toltar"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-bluesky"
+title = "Bluesky"
+url = "https://bsky.app/profile/thebytebard.bsky.social"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-square-x-twitter"
+title = "Twitter"
+url = "https://x.com/toltarius"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-linkedin"
-title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/matt-dickens/"
 
 [[params.socialLinks]]
 icon = "fa-solid fa-envelope"
 title = "Email"
 url = "mailto:matt@mattdickens.dev"
-
-[[params.socialLinks]]
-icon = "ai ai-orcid"
-title = "ORCID"
-url = "https://orcid.org/0000-0001-2345-6789"
 
 [taxonomies]
 category = "categories"
